@@ -9,3 +9,8 @@ make [filename]
 
 # Not really C, but this is a useful cli to display an ascii table
 man ascii
+
+#The right shift operator shown below:
+x << 4
+#is not defined for signed numbers, resulting in portability issues, unlike in java
+
